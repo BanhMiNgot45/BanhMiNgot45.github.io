@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Mansalva';
+    src: url('fonts/Mansalva-Regular.eot');
+    src: url('fonts/Mansalva-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Mansalva-Regular.woff2') format('woff2'),
+        url('fonts/Mansalva-Regular.woff') format('woff'),
+        url('fonts/Mansalva-Regular.svg#Mansalva-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ShadowsIntoLight';
+    src: url('fonts/ShadowsIntoLight.eot');
+    src: url('fonts/ShadowsIntoLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ShadowsIntoLight.woff2') format('woff2'),
+        url('fonts/ShadowsIntoLight.woff') format('woff'),
+        url('fonts/ShadowsIntoLight.svg#ShadowsIntoLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+a {
+    color: white;
+    font-family: "ShadowsIntoLight";
+    font-size: 40px;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 5px 5px 5px;
+    border: 5px solid white;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Mansalva";
+}
+
+html {
+    background-color: #e8bffb;
+}
